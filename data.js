@@ -30,5 +30,9 @@ var people = [
   {
     name: 'Neil',
     githubUsername: 'NH-pro'
+  },
+  {
+    name: 'John',
+    githubUsername: 'jdmaras'
   }
 ];
