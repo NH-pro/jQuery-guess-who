@@ -5,6 +5,7 @@ $(document).ready(onReady);
 // jQuery ready
 
 let clickPerson = '';
+//let newRoster = [];
 
 
 function onReady() {
@@ -69,6 +70,7 @@ function isThisThatPerson() {
         $('#name_chosen_display').empty();
         // Empty 'name_chosen_display' from DOM.
         $(promptRandomPerson);
+        randomArray;
         // Execute a new 'promptRandomPerson' function to get a new person.
         return alert('You clicked the correct person!');
         // Return an alert that the user is correct!
@@ -78,3 +80,18 @@ function isThisThatPerson() {
         // Return an alert that the user was incorrect.
     }
 }
+
+/*
+function randomArray() {
+    newRoster = [];
+    // empty the new array
+
+    while (people.length > 0) {
+        let chosenPerson = randomNumber(0, people.length-1);
+        clickPerson = people[chosenPerson];
+        people.splice
+        newRoster.push(clickPerson);
+    }
+ 
+}
+*/
